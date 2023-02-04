@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* FONTS */
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(/fonts/HelveticaNeue-01.ttf);
+    /* src: url(/fonts/HelveticaNeue-Bold-02.ttf);
+    src: url(/fonts/HelveticaNeue-BoldItalic-04.ttf);
+    src: url(/fonts/HelveticaNeue-CondensedBlack-10.ttf);
+    src: url(/fonts/HelveticaNeue-CondensedBold-05.ttf);
+    src: url(/fonts/HelveticaNeue-Italic-03.ttf);
+    src: url(/fonts/HelveticaNeue-Light-08.ttf);
+    src: url(/fonts/HelveticaNeue-LightItalic-09.ttf);
+    src: url(/fonts/HelveticaNeue-Medium-11.ttf);
+    src: url(/fonts/HelveticaNeue-MediumItalic-12.ttf);
+    src: url(/fonts/HelveticaNeue-Thin-13.ttf);
+    src: url(/fonts/HelveticaNeue-ThinItalic-14.ttf);
+    src: url(/fonts/HelveticaNeue-UltraLight-06.ttf);
+    src: url(/fonts/HelveticaNeue-UltraLightItalic-07.ttf); */
+}
+
+/* LOGOS */
+.logo-1 {
+    position: absolute;
+    width: 236px;
+    height: 38px;
+    left: 70px;
+    top: 25px;
+}
+.logo-2 {
+    position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 1076px;
+    top: 473px;
+    mix-blend-mode: multiply;
+}
+.line-1 {
+    border: solid 1px #1A1A1A;
+    position: absolute;
+    height: 0px;
+    left: 70px;
+    right: 70px;
+    top: 89px;
+}
+
+
+/* ღილაკი */
+.btn-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 60px;
+    gap: 20px;
+    position: absolute;
+    width: 464px;
+    height: 60px;
+    left: calc(50% - 464px/2);
+    top: 513px;
+    background: #1A1A1A;
+    border-radius: 8px;
+}
+
+/* ღილაკის ტექსტი */
+.p-1 {
+    width: 212px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btn-1:hover {
+    cursor: pointer;
+    transition-duration: 4s;
+    transform: scale(1.05);
+}
