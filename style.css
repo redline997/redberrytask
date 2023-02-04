@@ -89,3 +89,373 @@ body {
     transition-duration: 4s;
     transform: scale(1.05);
 }
+.container {
+    position: absolute;
+    width: 822px;
+    height: 1080px;
+    right: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+/* სათაური */
+.h1-1 {
+    position: absolute;
+    width: 179px;
+    height: 29px;
+    left: 149px;
+    top: 47px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1A1A1A;
+}
+.pagepart {
+    position: absolute;
+    width: 29px;
+    height: 24px;
+    left: 920px;
+    top: 49px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #1A1A1A;
+}
+.hr-2 {
+    border: solid 1px #1A1A1A;
+    position: absolute;
+    width: 798px;
+    height: 0px;
+    left: 150px;
+    top: 88px;
+}
+.sakheli {
+    width: 370px;
+    height: 122px;
+    position: absolute; left: 126px; top: 157px;
+    padding: 8px 24px;
+}
+/* LABEL */
+.lb-1 {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bolder;
+}
+.sakheli input {
+    box-sizing: border-box;
+    border: solid 1px #BCBCBC;
+    width: 371px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    position: absolute; top: 37px; left: 24px;
+    padding: 13px 16px 16px 14px;
+}
+.sakheli input::placeholder {
+    width: 339px;
+    height: 21px;
+    position: absolute;
+    height: 21px;
+    left: 16px;
+    right: 16px;
+    top: 13px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.validation-1 {
+    width: 371px;
+    height: 21px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1px;
+    align-items: center;
+    position: absolute; top: 93px; left: 24px;
+    color: #2E2E2E;
+}
+.gvari {
+    width: 370px;
+    height: 122px;
+    position: absolute; left: 545px; top: 157px;
+    padding: 8px 24px;
+}
+.gvari input {
+    box-sizing: border-box;
+    border: solid 1px #BCBCBC;
+    width: 371px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    position: absolute; top: 37px; left: 24px;
+    padding: 13px 16px 16px 14px;
+}
+.gvari input::placeholder {
+    width: 339px;
+    height: 21px;
+    position: absolute;
+    height: 21px;
+    left: 16px;
+    right: 16px;
+    top: 13px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.lb-2 {
+    position: absolute;
+    width: 232px;
+    height: 22px;
+    left: 150px;
+    top: 325px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1A1A1A;
+    font-weight: bolder;
+}
+.asatvirti {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 12px;
+    position: absolute;
+    width: 107px;
+    height: 27px;
+    left: 401px;
+    top: 325px;
+    background: #0E80BF;
+    border-radius: 4px;
+}
+.liveimg {
+    position: absolute;
+    border-radius: 50%;
+}
+
+/* ................................... */
+.form-input {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 10px 12px;
+gap: 10px;
+position: absolute;
+width: 107px;
+height: 10px;
+left: 401px;
+top: 322px;
+background: #0E80BF;
+border-radius: 4px;
+}
+.form-input:hover {
+    cursor: pointer;
+}
+.form-input input {
+    display:none;
+}
+.form-input label {
+width: 69px;
+height: 17px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+.form-input label:hover {
+    cursor: pointer;
+}
+  
+.form-input img {
+width:200px;
+display:none;
+margin-bottom:30px;
+position: absolute;
+border-radius: 50%;
+}
+.aboutme {
+    width: 846px;
+    height: 177px;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+.lb-3 {
+    width: 798px;
+    height: 21px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    font-weight: bolder;
+}
+.aboutme textarea {
+    box-sizing: border-box;
+    border: solid 1px #BCBCBC;
+    width: 798px;
+    height: 103px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    position: absolute; top: 37px; left: 0px;
+    resize: none;
+    padding: 13px 16px 69px 16px;
+}
+.aboutme textarea::placeholder {
+    position: absolute; left: 16px; right: 16px; top: 13px;
+    height: 21px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.mail {
+    width: 846px;
+    height: 130px;
+    position: absolute;
+    top: 560px;
+    left: 150px;
+}
+.mail input {
+    box-sizing: border-box;
+    border: solid 1px #BCBCBC;
+    width: 798px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    position: absolute; top: 37px; left: 0px;
+    padding: 13px 16px 14px 16px;
+}
+.mail input::placeholder {
+    position: absolute; left: 16px; right: 16px; top: 13px;
+    height: 21px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.validation-2 {
+    width: 798px;
+    height: 21px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    position: absolute; top: 80px; left: 0px;
+    color: #2E2E2E;
+}
+.phonenumber {
+    width: 846px;
+    height: 130px;
+    position: absolute;
+    top: 710px;
+    left: 150px;
+}
+.phonenumber input {
+    box-sizing: border-box;
+    border: solid 1px #BCBCBC;
+    width: 798px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    position: absolute; top: 37px; left: 0px;
+    padding: 13px 16px 14px 16px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.phonenumber input::placeholder {
+    position: absolute; left: 16px; right: 16px; top: 13px;
+    height: 21px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.validation-3 {
+    width: 798px;
+    height: 21px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    position: absolute; top: 80px; left: 0px;
+    color: #2E2E2E;
+}
+.btn-2 {
+    display: flex;
+    position: absolute; left: 792px; bottom: 65px;
+    width: 151px;
+    height: 48px;
+    background: #6B40E3;
+    border-radius: 4px;
+    padding: 18px 60px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn-2 p {
+    width: 81px;
+    height: 20px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    /* position: absolute; top: 20px; left: 35px; */
+}
+.btn-2 :hover {
+    cursor: pointer;
+}
+.logo-3 {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 78px;
+    top: 994px;
+}
+.blank {
+    height: 1080px;
+    background: rgb(249, 249, 249);
+}
+.ellipse {
+    position: absolute; left: 48px; top: 45px;
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+.vector {
+    position: absolute;
+    width: 9.21px;
+    height: 16px;
+    left: 62px;
+    top: 57px;
+}
