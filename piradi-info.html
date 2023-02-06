@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>პირადი ინფორმაცია</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="container">
         <img class="logo-3" src="/LOGO-12 1.png" alt="">
+        <div class="preview">
+         <img class="fimage" id="file-ip-1-preview">
+        </div>
+        <div id="name1-1"></div>
+        <div id="lastname1-1"></div>
+        <div class="icon" id="email1-1">
+          <img src="/dzagluka.png" alt="">
+        </div>
+        <div id="phonenumber1-1"></div>
+        <div id="aboutme1-1"></div>
     </div>
     <h1 class="h1-1">პირადი ინფო</h1>
     <p class="pagepart">1/3</p>
@@ -20,35 +31,32 @@
     <form class="piradiinfo">
         <div class="sakheli">
             <label class="lb-1" for="">სახელი</label>
-            <input type="text" placeholder="ანზორ" minlength="2" required>
+            <input type="text" id="name1" placeholder="ანზორ" minlength="2" required>
             <p class="validation-1">მინიმუმ 2 ასო, ქართული ასოები</p>
         </div>
         <div class="gvari">
             <label class="lb-1" for="">გვარი</label>
-            <input type="text" placeholder="მუმლაძე" minlength="2" required>
+            <input type="text" id="lastname1" placeholder="მუმლაძე" minlength="2" required>
             <p class="validation-1">მინიმუმ 2 ასო, ქართული ასოები</p>
         </div>
         <label class="lb-2" for="">პირადი ფოტოს ატვირთვა </label>
         <div class="form-input">
-          <div class="preview">
-            <img id="file-ip-1-preview">
-          </div>
           <label for="file-ip-1">ატვირთვა</label>
           <input type="file" id="file-ip-1" accept="image/*" onchange="showPreview(event);" required>
         </div>
       </div>
       <div class="aboutme">
         <label class="lb-3" for="">ჩემ შესახებ (არასავალდებულო)</label>
-        <textarea name="" placeholder="ზოგადი ინფო შენ შესახებ" id="" cols="30" rows="10"></textarea>
+        <textarea name="" placeholder="ზოგადი ინფო შენ შესახებ" id="aboutme1" cols="30" rows="10"></textarea>
       </div>
       <div class="mail">
         <label class="lb-3" for="">ელ.ფოსტა<label>
-        <input type="mail" placeholder="anzorr666@redberry.ge" required>
+        <input type="mail" id="email1" placeholder="anzorr666@redberry.ge" required>
         <p class="validation-2">უნდა მთავრდებოდეს @redberry.ge-ით</p>
       </div>
       <div class="phonenumber">
         <label class="lb-3" for="">მობილურის ნომერი<label>
-        <input type="number" placeholder="+995 551 12 34 56" required>
+        <input type="number" id="phonenumber1" placeholder="+995 551 12 34 56" required>
         <p class="validation-3">უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს</p>
       </div>
       <a href=""><button class="btn-2"><p>შემდეგი</p></button></a>
@@ -61,6 +69,28 @@
           preview.style.display = "block";
         }
       }
+
+      // realtimewriter
+      $('#name1').keyup(function () {
+        $('#name1-1').show();
+        $('#name1-1').html($(this).val());
+    });
+      $('#lastname1').keyup(function () {
+          $('#lastname1-1').show();
+          $('#lastname1-1').html($(this).val());
+    });
+      $('#email1').keyup(function () {
+          $('#email1-1').show();
+          $('#email1-1').html($(this).val());
+    });
+      $('#phonenumber1').keyup(function () {
+          $('#phonenumber1-1').show();
+          $('#phonenumber1-1').html($(this).val());
+    });
+      $('#aboutme1').keyup(function () {
+          $('#aboutme1-1').show();
+          $('#aboutme1-1').html($(this).val());
+    });
       </script>
     </form>
 </blank>

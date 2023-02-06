@@ -159,6 +159,20 @@ body {
     position: absolute; top: 37px; left: 24px;
     padding: 13px 16px 16px 14px;
 }
+/* Real time writer */
+#name1-1 {
+    position: absolute;
+    width: 123px;
+    height: 42px;
+    left: 80px;
+    top: 68px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    color: #F93B1D;
+}
 .sakheli input::placeholder {
     width: 339px;
     height: 21px;
@@ -190,6 +204,20 @@ body {
     height: 122px;
     position: absolute; left: 545px; top: 157px;
     padding: 8px 24px;
+}
+/* realtimewriter lastname */
+#lastname1-1 {
+    position: absolute;
+    width: 166px;
+    height: 42px;
+    left: 223px;
+    top: 68px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    color: #F93B1D;
 }
 .gvari input {
     box-sizing: border-box;
@@ -248,19 +276,19 @@ body {
 
 /* ................................... */
 .form-input {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px 10px 12px;
-gap: 10px;
-position: absolute;
-width: 107px;
-height: 10px;
-left: 401px;
-top: 322px;
-background: #0E80BF;
-border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 12px;
+    gap: 10px;
+    position: absolute;
+    width: 107px;
+    height: 10px;
+    left: 401px;
+    top: 322px;
+    background: #0E80BF;
+    border-radius: 4px;
 }
 .form-input:hover {
     cursor: pointer;
@@ -269,25 +297,24 @@ border-radius: 4px;
     display:none;
 }
 .form-input label {
-width: 69px;
-height: 17px;
-font-family: 'Helvetica Neue';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #FFFFFF;
+    width: 69px;
+    height: 17px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
 }
 .form-input label:hover {
     cursor: pointer;
 }
   
-.form-input img {
-width:200px;
-display:none;
-margin-bottom:30px;
-position: absolute;
-border-radius: 50%;
+.fimage {
+    width: 246px;
+    display:none;
+    position: absolute; left: 501px; top:48px;
+    border-radius: 133px;
 }
 .aboutme {
     width: 846px;
@@ -320,6 +347,22 @@ border-radius: 50%;
     resize: none;
     padding: 13px 16px 69px 16px;
 }
+/* realtimewriteraboutme */
+#aboutme1-1 {
+    position: absolute;
+    width: 432px;
+    height: 72px;
+    left: 80px;
+    top: 250px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: lowercase;
+    color: #000000;
+    overflow-wrap: break-word;
+}
 .aboutme textarea::placeholder {
     position: absolute; left: 16px; right: 16px; top: 13px;
     height: 21px;
@@ -335,6 +378,20 @@ border-radius: 50%;
     position: absolute;
     top: 560px;
     left: 150px;
+}
+/* realtimewriteremail */
+#email1-1 {
+    position: absolute;
+    width: 187px;
+    height: 21px;
+    left: 111px;
+    top: 127px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1A1A1A;
 }
 .mail input {
     box-sizing: border-box;
@@ -372,6 +429,20 @@ border-radius: 50%;
     position: absolute;
     top: 710px;
     left: 150px;
+}
+/* realtimewriterphonenumber */ 
+#phonenumber1-1 {
+    position: absolute;
+    width: 151px;
+    height: 21px;
+    left: 111px;
+    top: 158px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1A1A1A;
 }
 .phonenumber input {
     box-sizing: border-box;
@@ -458,4 +529,15 @@ input::-webkit-inner-spin-button {
     height: 16px;
     left: 62px;
     top: 57px;
+}
+.icon {
+    position: relative;
+}
+  
+.icon > img {
+
+}
+  
+.icon > input {
+    
 }
