@@ -530,14 +530,126 @@ input::-webkit-inner-spin-button {
     left: 62px;
     top: 57px;
 }
-.icon {
+/* inputvalidation */
+#name1 {
+    outline: 0;
+}
+ #name1:focus-visible{
+    border: solid 2px red;
+    background-image: url(/warning.png);
+    background-repeat: no-repeat;
+    background-position-x: 335px;
+    background-position-y: center;
+    background-size: 20px; 
+}
+#name1:focus-within{
+    border: solid 2px red;
+    background-image: url(/warning.png);
+    background-repeat: no-repeat;
+    background-position-x: 335px;
+    background-position-y: center;
+    background-size: 20px; 
+}
+#name1:valid {
+    border: solid 2px green;
+    background-image: url(/success.png);
+    background-repeat: no-repeat;
+    background-position-x: 335px;
+    background-position-y: center;
+    background-size: 20px;
+}
+#lastname1 {
+    outline: 0;
+}
+#lastname1:focus-visible{
+    border: solid 2px red;
+    background-image: url(/warning.png);
+    background-repeat: no-repeat;
+    background-position-x: 335px;
+    background-position-y: center;
+    background-size: 20px; 
+}
+#lastname1:focus-within{
+    border: solid 2px red;
+    background-image: url(/warning.png);
+    background-repeat: no-repeat;
+    background-position-x: 335px;
+    background-position-y: center;
+    background-size: 20px; 
+}
+#lastname1:valid {
+    border: solid 2px green;
+    background-image: url(/success.png);
+    background-repeat: no-repeat;
+    background-position-x: 335px;
+    background-position-y: center;
+    background-size: 20px;
+}
+#private .mail {
     position: relative;
 }
-  
-.icon > img {
-
+#text {
+    color: #000;
+    font-weight: bolder;
+    font-style: italic;
 }
-  
-.icon > input {
-    
+/* #private.invalid .mail::before {
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    background: url(/warning.png);
+    background-size: cover;
+    z-index: 1000;
+    border: solid 50px red;
+}
+#private.valid .mail::before {
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    background: url(/success.png);
+    background-size: cover;
+    z-index: 1000;
+} */
+#phonenumber1 {
+    outline: 0;
+}
+#email1 {
+    outline: 0;
+}
+#aboutme1 {
+    outline: 0;
+}
+#aboutme1:focus-within {
+    border: solid 2px green;
+    background-repeat: no-repeat;
+    background-position-x: 335px;
+    background-position-y: center;
+    background-size: 20px;
+}
+#email1:focus-within {
+    border: solid 2px red;
+    background-image: url(/warning.png);
+    background-repeat: no-repeat;
+    background-position-x: 750px;
+    background-position-y: center;
+    background-size: 20px;
+}
+#email1:valid {
+    border: solid 2px green;
+    background-image: url(/success.png);
+    background-repeat: no-repeat;
+    background-position-x: 750px;
+    background-position-y: center;
+    background-size: 20px;
+}
+#text3 {
+    color: #000;
+    font-weight: bolder;
+    font-style: italic;
 }
